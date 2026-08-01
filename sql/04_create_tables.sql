@@ -1,0 +1,19 @@
+-- ============================================
+-- Create Sales Table
+-- ============================================
+
+CREATE OR REPLACE TABLE SALES_RAW
+(
+ORDER_ID INT,
+CUSTOMER_ID INT,
+CUSTOMER_NAME STRING,
+PRODUCT STRING,
+CATEGORY STRING,
+QUANTITY INT,
+PRICE NUMBER(10,2),
+ORDER_DATE DATE,
+CITY STRING,
+STATE STRING
+);
+
+DESC TABLE SALES_RAW;
