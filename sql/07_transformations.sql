@@ -1,0 +1,22 @@
+-- ============================================
+-- Create Clean Table
+-- ============================================
+
+CREATE OR REPLACE TABLE SALES_CLEAN AS
+
+SELECT
+ORDER_ID,
+CUSTOMER_ID,
+UPPER(CUSTOMER_NAME) AS CUSTOMER_NAME,
+PRODUCT,
+CATEGORY,
+QUANTITY,
+PRICE,
+QUANTITY*PRICE AS TOTAL_AMOUNT,
+ORDER_DATE,
+CITY,
+STATE
+FROM SALES_RAW;
+
+SELECT *
+FROM SALES_CLEAN;
