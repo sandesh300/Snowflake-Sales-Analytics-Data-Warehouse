@@ -1,0 +1,11 @@
+ORDER_ID,CUSTOMER_ID,CUSTOMER_NAME,PRODUCT,CATEGORY,QUANTITY,PRICE,ORDER_DATE,CITY,STATE
+1001,201,Amit Sharma,Laptop,Electronics,1,65000,2026-01-10,Pune,Maharashtra
+1002,202,Priya Patel,Phone,Electronics,2,25000,2026-01-12,Mumbai,Maharashtra
+1003,203,Rahul Singh,Chair,Furniture,4,3500,2026-01-15,Delhi,Delhi
+1004,204,Neha Gupta,Table,Furniture,1,8000,2026-01-20,Bangalore,Karnataka
+1005,205,Ravi Kumar,Headphones,Electronics,3,2000,2026-01-25,Hyderabad,Telangana
+1006,206,Anjali Verma,Monitor,Electronics,2,15000,2026-02-01,Pune,Maharashtra
+1007,207,Arjun Mehta,Keyboard,Accessories,5,1200,2026-02-03,Mumbai,Maharashtra
+1008,208,Sneha Joshi,Mouse,Accessories,6,800,2026-02-05,Pune,Maharashtra
+1009,209,Vikram Rao,Desk,Furniture,2,9000,2026-02-10,Chennai,Tamil Nadu
+1010,210,Kiran Shah,Printer,Electronics,1,18000,2026-02-12,Ahmedabad,Gujarat
